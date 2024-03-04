@@ -1,0 +1,121 @@
+/* GLOBAL */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  font-size: 62.5%;
+  /* 1 rem = 10pixels */
+}
+
+body {
+  margin: 0rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #504e4e;
+}
+
+h1,
+p,
+span,
+ul {
+  margin: 0rem;
+}
+
+ul {
+  margin: 0rem;
+  padding: 0rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+
+.conteiner {
+  background-image: url("/assets/images/papel-de-parede.png");
+  max-width: 100%;
+  min-height: 100vh;
+  display: grid;
+  margin: 0rem;
+  place-items: center;
+}
+.conteiner .box {
+  background-color: #131313;
+  background-image: url("/assets/images/Design\ sem\ nome.png");
+  display: grid;
+  place-items: center;
+  color: #ffffff;
+  font-family: "Inter";
+  padding-inline: 4rem;
+  border-radius: 1rem;
+  margin-inline: 1rem;
+}
+.conteiner .box picture {
+  margin-top: 4rem;
+}
+.conteiner .box picture img {
+  border-radius: 100%;
+  width: 8rem;
+}
+.conteiner .box .titulo {
+  font-size: 2.4rem;
+  margin-top: 3rem;
+  font-weight: 400;
+}
+
+.conteiner .box .cidade {
+  font-size: 1.4rem;
+  color: #a810b6;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.conteiner .box .sobre {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
+
+.conteiner .box .redes {
+  font-size: 1.6rem;
+  display: grid;
+  font-weight: 700;
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.conteiner .box .redes li {
+  background-color: #000000;
+  padding-block: 1.5rem;
+  padding-inline: 0rem;
+  border-radius: 1rem;
+  transition: 0.3s all;
+  position: relative;
+}
+.conteiner .box .redes li:hover {
+  background-color: #de15f0;
+  color: #333333;
+}
+
+.conteiner .box .redes li a {
+  padding-inline: 9rem;
+  padding-block: 1.5rem;
+}
+
+.attribution {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #ffffff;
+}
+.attribution a {
+  color: #8615f0;
+}
